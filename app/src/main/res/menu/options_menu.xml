@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/share"
+    android:title="Share"
+    android:icon="@drawable/share" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+
+    <item
+        android:id="@+id/contact"
+        android:title="Contact Us"
+        android:icon="@drawable/contactless" >
+        <menu>
+            <item
+                android:id="@+id/byphone"
+                android:title="By Phone"
+                android:icon="@drawable/phone"/>
+            <item
+                android:id="@+id/whatsapp"
+                android:title="Whats App"
+                android:icon="@drawable/whatsapp"/>
+        </menu>
+    </item>
+
+
+</menu>
